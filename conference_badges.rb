@@ -25,8 +25,4 @@ def printer(attendees)
   batch_badge_creator(attendees).each{|badge| puts badge}
 
   assign_rooms(attendees).each{|assignment| puts assignment}
-
-def batch_badge_creator
-  badge_maker(name)
-  puts "Hello, my name is #{name}."
 end
